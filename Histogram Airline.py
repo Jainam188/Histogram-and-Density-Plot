@@ -14,11 +14,12 @@ x5 = list(flights[flights['name'] == 'Delta Air Lines Inc.']['arr_delay'])
 
 colors = ['#E69F00', '#56B4E9', '#F0E442', '#009E73', '#D55E00']
 
-airlines = ['United Air Lines Inc.', 'American Airlines Inc.', 'JetBlue Airways', 'ExpressJet Airlines Inc.', 'Delta Air Lines Inc.']#
-# normed to normalize the graph
-# stacked = true
+airlines = ['United Air Lines Inc.', 'American Airlines Inc.', 'JetBlue Airways', 'ExpressJet Airlines Inc.', 'Delta Air Lines Inc.']
 
 plt.hist([x1, x2, x3, x4, x5], color = colors ,edgecolor = 'black', bins = int(180/20), label = airlines, normed= True)
+
+# normed to normalize the graph
+# to see different result put stacked = true
 
 plt.legend()
 plt.set_title = ("side by side Histogram binwidth")
@@ -26,8 +27,8 @@ plt.set_xlabel = ('Delay Min')
 plt.set_ylabel = ('Flights')
 plt.show()
 
-# print(flights.head())
 # single variable histogram with muplti binwidth
+
 # for i, binwidth in enumerate([5, 10, 15, 20]):
 #     ax = plt.subplot(2, 2, i+1)
 #
@@ -35,10 +36,10 @@ plt.show()
 #     ax.hist(flights['arr_delay'], color = 'Blue',edgecolor = 'black', bins = int(180/binwidth))
 #
 #     # Using Seaborn Lib
-#     # sns.distplot(flights['arr_delay'], hist= True, kde= False, bins=int(180/5), color = "Blue", hist_kws={'edgecolor':'black'})
+#     # sns.distplot(flights['arr_delay'], hist= True, kde= False, bins=int(180/binwidth), color = "Blue", hist_kws={'edgecolor':'black'})
 #
 #     ax.set_title = ("Histogram binwidth = %d" % binwidth)
 #     ax.set_xlabel = ('Delay Min')
 #     ax.set_ylabel = ('Flights')
-
+#     plt.show()
 # plt.tight_layout()
