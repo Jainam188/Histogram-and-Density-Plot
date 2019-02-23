@@ -19,7 +19,7 @@ airlines = ['United Air Lines Inc.', 'American Airlines Inc.', 'JetBlue Airways'
 plt.hist([x1, x2, x3, x4, x5], color = colors ,edgecolor = 'black', bins = int(180/20), label = airlines, normed= True)
 
 # normed to normalize the graph
-# to see different result put stacked = true
+# to see different result put stacked = true, to see the stacked graph
 
 plt.legend()
 plt.set_title = ("side by side Histogram binwidth")
