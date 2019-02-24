@@ -12,9 +12,10 @@ for airline in airlines:
 
     subplot = flights[flights['name'] == airline]
     sns.distplot(subplot['arr_delay'], hist= False, kde= True, kde_kws={'linewidth': 3}, label= airline)
+    #try to add shade as true
     # sns.distplot(subplot['arr_delay'], hist= False, kde= True, kde_kws={'shade': True,'linewidth': 3}, label= airline)
 
-# legend is to show labeling
+# legend is to show labeling of graph
 plt.legend(prop = {'size': 16}, title = 'Airline')
 plt.set_title = ("Density plot")
 plt.set_xlabel = ('Delay Min')
