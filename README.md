@@ -1,7 +1,7 @@
 # Histogram-and-Density-Plot
 Plotting Histogram and Density using Matplot lib and Seaborn
 
-#Histogram plot
+     #Histogram plot
 
 Plotting single variable I personally think that histogram is the best think because if you use more than one variable than it will be really hard to understand or read that plot. 
 
@@ -9,7 +9,7 @@ There are also some other ways to use multiple variable, we can also plot differ
 
 I have created a histogram file using matplotlib and seaborn libraries and used Flight delay time dataset to understand and also results of it.
 
-#Density plot
+     #Density plot
 
 For plotting multiple variables use density plotting and it is really easy to understand the plot and I have done it by seaborn library
 
