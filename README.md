@@ -17,7 +17,7 @@ I have created a density file i will help you to understand well and also result
 
 #Dataset File
 
-Airlines.csv
+    Airlines.csv
 
 #Dependencies
 
@@ -27,6 +27,6 @@ Airlines.csv
 
  import seaborn as sns
 
-If you want to understand more deeply than refer the below link
+    If you want to understand more deeply than refer the below link
 
-https://towardsdatascience.com/histograms-and-density-plots-in-python-f6bda88f5ac0
+    https://towardsdatascience.com/histograms-and-density-plots-in-python-f6bda88f5ac0
